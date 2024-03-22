@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+<meta charset="UTF-8">
+<title>팀 엘리엇 가입 신청서</title>
+<style>
+.invisible-textarea {
+  border: none;
+  overflow: hidden;
+  outline: none;
+  resize: none;
+  background: transparent;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  height: auto; /* 자동 높이 조절을 위해 */
+  min-height: 50px; /* 최소 높이, 필요에 따라 조절 */
+}
+
+</style>
+</head>
+<body>
+
+<!-- 스타일이 적용된 textarea -->
+<textarea class="invisible-textarea" readonly>
+💌 팀 엘리엇 가입 신청서 💌
+이름 : 
+대학교: 
+학과(부) : 
+입학년도 : 
+연락처 : 
+발레 연습 경험 (택1) : 없음 / 6개월 미만 / 6개월 이상
+카카오톡 팀 채팅방 초대 여부 (택1) : 동의 / 동의안함
+</textarea>
+
+<!-- 복사 버튼 -->
+<button onclick="copyText()">양식 복사하기</button>
+
+<script src="script.js"></script>
+</body>
+</html>
